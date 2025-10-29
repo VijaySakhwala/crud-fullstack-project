@@ -8,6 +8,20 @@ A full‑stack application that implements Create, Read, Update and Delete (CRUD
 
 🎥 [Watch the video recording](https://github.com/VijaySakhwala/crud-fullstack-project/blob/main/video%20recording.mp4)
 
+### 🖼️ **Screenshots**
+
+#### 🔹 Login Page
+![Login Page](https://github.com/VijaySakhwala/crud-fullstack-project/blob/main/login.PNG)
+
+#### 🔹 Register Page
+![Register Page](https://github.com/VijaySakhwala/crud-fullstack-project/blob/main/Register.PNG)
+
+#### 🔹 Table Board
+![Table Board](https://github.com/VijaySakhwala/crud-fullstack-project/blob/main/TableBoard.PNG)
+
+#### 🔹 Database
+![Database](https://github.com/VijaySakhwala/crud-fullstack-project/blob/main/Database.PNG)
+
 
 
 
