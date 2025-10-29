@@ -1,0 +1,164 @@
+body {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.form-container {
+  max-width: 420px;
+  padding: 40px;
+  background: #1e1e2f;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.1);
+  border: 1px solid rgba(0, 255, 255, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-container:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.3);
+}
+
+.form-container h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 24px;
+  background: linear-gradient(90deg, #00ffff, #00bcd4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container input {
+  background-color: transparent;
+  border: 2px solid #00bcd4;
+  border-radius: 12px;
+  padding: 12px 16px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.form-container input::placeholder {
+  color: #aaa;
+}
+
+.form-container input:focus {
+  outline: none;
+  border-color: #00ffff;
+  box-shadow: 0 0 10px #00ffff;
+}
+
+.form-container button {
+  background: linear-gradient(90deg, #00ffff, #00bcd4);
+  border: none;
+  border-radius: 12px;
+  padding: 14px;
+  font-size: 16px;
+  color: #0f0f0f;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.form-container button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #00ffff;
+}
+
+.form-container a {
+  margin-top: 18px;
+  text-align: center;
+  color: #00ffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.form-container a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+table {
+  width: 95%;
+  margin: 40px auto;
+  border-collapse: collapse;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+th {
+  background-color: #f5f7fa;
+  color: #3a3a3a;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: left;
+  padding: 14px 16px;
+  border-bottom: 2px solid #e5e9f2;
+}
+
+td {
+  padding: 14px 16px;
+  font-size: 14px;
+  color: #555;
+  border-bottom: 1px solid #f0f2f5;
+}
+
+tr:nth-child(even) {
+  background-color: #f9fbfc;
+}
+
+tr:hover {
+  background-color: #eef4ff;
+  transition: 0.3s ease;
+}
+
+button {
+  padding: 6px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+/* Delete Button */
+button[data-id]:first-child {
+  background-color: #e74c3c;
+  color: white;
+}
+
+button[data-id]:first-child:hover {
+  background-color: #c0392b;
+}
+
+/* Update Button */
+button[data-id]:last-child {
+  background-color: #3498db;
+  color: white;
+  margin-left: 8px;
+}
+
+button[data-id]:last-child:hover {
+  background-color: #2980b9;
+}
