@@ -4,6 +4,13 @@ A full‑stack application that implements Create, Read, Update and Delete (CRUD
 
 ---
 
+## 🧰 Video Recording Link and ScreenShot :-
+
+🎥 [Watch the video recording](https://github.com/VijaySakhwala/crud-fullstack-project/blob/main/video%20recording.mp4)
+
+
+
+
 ## 🧰 Project Structure
 
 ```
